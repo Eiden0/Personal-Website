@@ -1,0 +1,48 @@
+.main-block{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px 20px;
+}
+
+.sub-block{
+    text-align: left;
+    letter-spacing: 1px;
+    order: 1;
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-block{
+    display: inline-block;
+    order: 2;
+    object-fit: contain;
+    width: 350px;
+    height: auto;
+    margin: 20px;
+    position: relative;
+    top: 20%;
+}
+
+.image-quote {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+}
+
+.icons-block{
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+.icons-block img{
+    width:25px;
+    margin: 5px 10px;
+}
