@@ -1,4 +1,4 @@
-.main-block{
+.main_block{
     font-family: 'Abel', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -9,7 +9,7 @@
     margin: 50px 20px 20px;
 }
 
-.sub-block{
+.sub_block{
     text-align: left;
     letter-spacing: 1px;
     order: 1;
@@ -17,7 +17,7 @@
     margin: 20px;
 }
 
-.image-block{
+.image_block{
     display: inline-block;
     order: 2;
     object-fit: contain;
@@ -28,21 +28,21 @@
     top: 20%;
 }
 
-.image-quote {
+.image_quote {
     display: block;
     width: 100%;
     height: auto;
     max-width: 350px;
 }
 
-.icons-block{
+.icons_block{
     display: inline-block;
     position: relative;
     top: 6px;
     left: 10px;
 }
 
-.icons-block img{
+.icons_block img{
     width:25px;
     margin: 5px 10px;
 }

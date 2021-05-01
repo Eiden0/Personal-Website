@@ -4,21 +4,18 @@ import mail from '../assests/svg/gmail.svg';
 import linkedin from '../assests/svg/linkedin.svg';
 import code1 from '../assests/images/code-quote 2.png';
 import facebook from '../assests/svg/facebook.svg';
-import './intro.css';
-
-
+import styles from './intro.module.css';
 
 class Intro extends React.Component{
-
     render() {
         return(
             <>
-                <div className='main-block'>
-                    <div className="sub-block">
+                <div className={styles.main_block}>
+                    <div className={styles.sub_block}>
                         <p>
                             <div>
                                 <h2 style={{display : "inline-block"}}>Hi, I am Shibashis Das.</h2>
-                                <div className="icons-block">
+                                <div className={styles.icons_block}>
                                     <img src={facebook}/>
                                     <img src={github}/>
                                     <img src={mail}/>
@@ -32,8 +29,8 @@ class Intro extends React.Component{
                             I have experience in Frontend and Backend Development and writing web apps.<br/>
                         </p>
                     </div>
-                    <div className="image-block">
-                        <img className="image-quote" src={code1} alt="There was an image here"/>
+                    <div className={styles.image_block}>
+                        <img className={styles.image_quote} src={code1} alt="There was an image here"/>
                     </div>
                 </div>
             </>
