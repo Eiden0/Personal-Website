@@ -4,28 +4,15 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 350px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     min-width: 250px;
     padding: 1.5rem;
 }
 
-.bg {
-  background-image: url("../assests/web_images/Capture.PNG");
-  filter: blur(8px);
-  -webkit-filter: blur(4px);
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-
-/* .content{
-  background: #17141d;;
-} */
 .card {
-  /* ... */
   border-radius: 16px;
-  background: #17141d;
+  background: #0f091f;
   box-shadow: -1rem 0 2rem #000;
   transition: .2s;
 }
@@ -83,7 +70,7 @@
 }
 
 .card-header h2 {
-  font-size: 20px;
+  font-size: 22px;
   margin: .25rem 0 auto;
   cursor: pointer;
   color: #e1e7e7;
@@ -102,22 +89,25 @@
   padding: .5rem 0 1rem;
   line-height: 2;
   margin-bottom: 0;
+  text-align: left;
+  letter-spacing: 0.5px;
 }
 
-.tags a {
+.tags div {
   font-style: normal;
   font-weight: 700;
-  font-size: .5rem;
-  color: #7a7a8c;
+  color: #e1e7e7;
   text-transform: uppercase;
-  font-size: .66rem;
+  font-size: 0.78rem;
   border: 3px solid #28242f;
   border-radius: 2rem;
   padding: .2rem .85rem .25rem;
   position: relative;
+  width: fit-content;
+  display: inline-block;
 }
 
-.tags a:hover {
+.tags div:hover {
   background: linear-gradient(90deg,#ff8a00,#e52e71);
   text-shadow: none;
   -webkit-text-fill-color: transparent;

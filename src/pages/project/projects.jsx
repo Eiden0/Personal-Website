@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../../components/cards/cards';
 import styles from './projects.module.css';
+import { projectList } from '../../data/projects';
 
 function ProjectView() {
   return (
@@ -9,10 +10,13 @@ function ProjectView() {
         <div className={styles.heading}>
           <h2>Projects</h2>
           <section className={styles[`card-list`]}>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            {projectList.map((item) => {
+              return(
+                <>
+                <Card data = {item} />
+                </>
+              )
+            })}
           </section>
         </div>
       </div>

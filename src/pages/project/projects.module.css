@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
 .main_block{
-  font-family: 'Abel', sans-serif;
+  font-family: 'Inconsolata', monospace;
   margin: 1em;
   text-align: left;
 }
@@ -10,15 +10,18 @@
   font-size: 20px;
   font-weight: 500;
   margin: 1em;
+  text-align: center;
 }
 
 .card-list {
+  font-family: 'Inconsolata', monospace;
   display: flex;
   padding: 3rem;
-  overflow-x: scroll;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
-.card-list::-webkit-scrollbar {
+/* .card-list::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
@@ -31,4 +34,4 @@
 
 .card-list::-webkit-scrollbar-track {
   background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
-}
+} */

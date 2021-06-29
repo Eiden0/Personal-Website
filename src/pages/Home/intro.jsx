@@ -1,7 +1,7 @@
 import React from 'react';
-import { svg } from '../../assests/svg/import_svg';
+import { svg } from '../../components/assests/svg/import_svg';
 import styles from './intro.module.css';
-import code1 from "../../assests/images/code-quote.png"
+import code1 from "../../components/assests/images/code-quote.png"
 
 function Intro() {
   return (
@@ -10,7 +10,10 @@ function Intro() {
         <section className={styles.sub_block}>
           <article>
             <div>
-              <h2 style={{ display: "inline-block" }}>Hi, I am Shibashis Das.</h2>
+              <h2 style={{ display: "inline-block" }}>
+                <span style = {{color : "#D61313", fontSize : "1.2em"}}>Hi
+                </span>, I am Shibashis Das.
+                </h2>
               <div className={styles.icons_block}>
                 {svg.map(function (item) {
                   return (

@@ -1,18 +1,16 @@
 import React from 'react';
 import styles from './cards.module.css';
 
-function Card() {
+function Card({data}) {
+  console.log(data);
   return (
     <>
       <article className={styles.card}>
-        {/* <div className={styles.bg}></div> */}
-        <div className={styles.content}>
-          <header className={styles[`card-header`]}>
-            <p>Sep 11th 2020</p>
-            <h2>Never forget</h2>
-          </header>
-
-          {/* <div className = {styles[`card-author`]}>
+        <header className={styles[`card-header`]}>
+          <p>{data.type}</p>
+          <h2>{data.name}</h2>
+        </header>
+        {/* <div className = {styles[`card-author`]}>
             <a className = {styles[`author-avatar`]} href="#">
               <img src="avatar.png" />
             </a>
@@ -25,12 +23,12 @@ function Card() {
               Jeff Delaney
             </div>
           </div> */}
-
-          <div className={styles.tags}>
-            <a href="#">html</a>
-            <a href="#">css</a>
-            <a href="#">web-dev</a>
-          </div>
+        <div className={styles.tags}>
+          {data.tags.map((tag) => {
+            return(
+              <div>{tag}</div>
+            )
+          })}
         </div>
       </article>
     </>

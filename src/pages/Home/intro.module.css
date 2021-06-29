@@ -1,13 +1,12 @@
 .main_block{
     font-family: 'Inconsolata', monospace;
-    /* font-family: 'Abel', sans-serif; */
-    /* font-family: "Roboto", sans-serif; */
     font-size: 19px;
     font-weight: 500;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: 1em;
+    margin-top: -1em;
     height: 90vh;
     align-items: center;
 }
