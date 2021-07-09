@@ -1,0 +1,29 @@
+.header{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1em;
+  text-align: center;
+}
+
+.contact-block{
+  
+}
+
+.form-block{
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+form {
+  font-size: 18px;
+}
+
+label {
+  margin: 5px;
+  text-align: left;
+}
+
+.input {
+  margin: 5px;
+}

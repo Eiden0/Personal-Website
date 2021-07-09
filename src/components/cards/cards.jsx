@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './cards.module.css';
 
 function Card({data}) {
-  console.log(data);
   return (
     <>
       <article className={styles.card}>
@@ -26,7 +25,7 @@ function Card({data}) {
         <div className={styles.tags}>
           {data.tags.map((tag) => {
             return(
-              <div>{tag}</div>
+              <div key={tag}>{tag}</div>
             )
           })}
         </div>

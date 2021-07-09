@@ -8,12 +8,13 @@ function ProjectView() {
     <>
       <div className={styles.main_block}>
         <div className={styles.heading}>
-          <h2>Projects</h2>
+          <h2> Projects </h2>
           <section className={styles[`card-list`]}>
-            {projectList.map((item) => {
+            {projectList.map((item, index) => {
+              
               return(
                 <>
-                <Card data = {item} />
+                <Card key={index} data = {item} />
                 </>
               )
             })}
