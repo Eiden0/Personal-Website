@@ -6,14 +6,15 @@ function ContactView(){
     <>
       <section className = {styles[`contact-block`]}>
         <header className = {styles.header}>
-          <h2> Get in touch me </h2>
+          <h2> Contact </h2>
+          <h3>Send me a message</h3>
         </header>
         <div className = {styles[`form-block`]}>
           <form>
-            <label for="fname">Name:</label> <br/>
-            <input className = {styles.input} type="text" id="fname" name="fname"/> <br/>
-            <label for="email">Email:</label> <br/>
-            <input className = {styles.input} type="email" id="email" name="email"/> <br/>
+            <label for="name">Name</label> <br/>
+            <input className = {styles.input} type="text" id="name" name="name"/> <br/>
+            <label for="message">Message</label> <br/>
+            <textarea className = {styles.input_textarea} type="email" id="message" name="message"/> <br/>
           </form>
         </div>
       </section>
