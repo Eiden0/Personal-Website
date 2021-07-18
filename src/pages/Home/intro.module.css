@@ -48,3 +48,12 @@
     width:25px;
     margin: 5px 10px;
 }
+
+.icons_block a img{
+  transition: transform 0.2s ease-in-out;
+}
+
+.icons_block img:hover{
+  transform: translate(0, -5px);
+
+}

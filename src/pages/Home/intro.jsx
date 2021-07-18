@@ -1,9 +1,15 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { svg } from '../../components/assests/svg/import_svg';
 import styles from './intro.module.css';
 import code1 from "../../components/assests/images/code-quote.png"
 
 function Intro() {
+  useEffect(() => {
+    //preloading image
+    const img = new Image();
+    img.src = code1;
+  }, []);
   return (
     <>
       <div className={styles.main_block}>
