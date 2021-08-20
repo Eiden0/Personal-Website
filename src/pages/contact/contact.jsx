@@ -9,7 +9,8 @@ function ContactView(){
           <h2> Contact </h2>
         </header>
         <div className = {styles[`form-block`]}>
-          <h3 style = {{textAlign : "left", margin : "15px", color : "black"}}>Say Hello</h3>
+          {/* <h3 style = {{textAlign : "left", margin : "15px", color : "black"}}>Say Hello</h3> */}
+          
           <form>
             <label for="name" >NAME</label> <br/>
             <input className = {styles.input} type="text" id="name" name="name" placeholder = "Your name"/> <br/>

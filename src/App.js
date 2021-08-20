@@ -2,6 +2,7 @@ import './App.css';
 import Intro from "./pages/Home/intro";
 import ProjectView from './pages/project/projects';
 import ContactView from './pages/contact/contact';
+import TechView from './pages/Tech/tech';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         <Intro/>
         <div className = "separator"/>
         <ProjectView/>
-        <ContactView/>
-        
+        {/* <ContactView/> */}
+        <TechView/>
     </div>
   );
 }

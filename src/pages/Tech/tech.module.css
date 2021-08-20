@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+.main_block{
+  font-family: 'Inconsolata', monospace;
+  margin: 1em;
+  text-align: left;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto;
+  gap: 10px 10px;
+  place-items: center center;
+  place-content: center center;
+}
+
+.item{
+  width: 80px;
+  text-align: center;
+  margin: 10px 50px;
+  place-self: center;
+}
+
+.item img{
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.heading{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1em;
+  text-align: center;
+}
