@@ -9,12 +9,18 @@ export const projectList = [
     type : 'Project',
     name : 'RP Hall Website',
     description : 'A webiste made for the RP Hall Students for easier workflow',
-    tags : ['web-dev', 'HTML', 'Django', 'Apache']
+    tags : ['Web-dev', 'HTML', 'Django', 'Apache']
   },
   {
     type : 'Project',
     name : 'Online Mess Portal',
     description : 'A online mess portal made for students to minimize the food wastage',
-    tags : ['web-dev', 'HTML', 'JavaScript', 'Django']
+    tags : ['Web-dev', 'HTML', 'JavaScript', 'Django']
+  },
+  {
+    type : 'Project',
+    name : 'Conway\'s Game of Life',
+    description : 'An online visualization of Conway\'s Game of Life ',
+    tags : ['Web-dev', 'HTML', 'JavaScript', 'p5.js']
   }
 ]
