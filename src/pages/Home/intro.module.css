@@ -1,7 +1,12 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../components/assests/GT-Walsheim-Pro-Light.ttf);
+}
+
 .main_block{
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: myFirstFont;
     font-size: 19px;
-    font-weight: 500;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -13,13 +18,15 @@
 
 .sub_block{
     text-align: justify;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     order: 1;
     display: inline-block;
     margin: 1em;
     line-height: 1.4;
     color: #2b2b2b;
 }
+
+/* .sub_block  */
 
 .image_block{
     display: inline-block;

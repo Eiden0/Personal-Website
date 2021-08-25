@@ -1,8 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../components/assests/GT-Walsheim-Pro-Light.ttf);
+}
+
 .main_block{
-  font-family: 'Inconsolata', monospace;
+  font-family: myFirstFont;
   margin: 1em;
   text-align: left;
 }
@@ -31,6 +36,7 @@
 .heading{
   font-size: 20px;
   font-weight: 500;
-  margin: 1em;
+  margin: 1em 1em 3em 1em;
   text-align: center;
+
 }

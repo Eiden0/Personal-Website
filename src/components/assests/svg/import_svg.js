@@ -20,3 +20,8 @@ export const svg = [
         src : require('./gmail.svg'),
     },
 ];
+
+export const setting_svg = {
+  icon : 'settings',
+  src : require('./settings.svg')
+}

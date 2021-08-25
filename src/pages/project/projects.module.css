@@ -1,24 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../components/assests/GT-Walsheim-Pro-Light.ttf);
+}
+
 .main_block{
-  font-family: 'Inconsolata', monospace;
+  font-family: myFirstFont;
   margin: 1em;
   text-align: left;
+  height: 100vh;
 }
 
 .heading{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 200;
   margin: 1em;
   text-align: center;
 }
 
 .card-list {
-  font-family: 'Inconsolata', monospace;
+  font-family: myFirstFont;
   display: flex;
   padding: 3rem;
   justify-content: center;
   overflow-x: hidden;
+}
+
+.spin {
+  animation: rotation 8s infinite linear;
+  position:relative;
+  top: 4px;
+  left: 5px;
+  width: 27px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 /* .card-list::-webkit-scrollbar {

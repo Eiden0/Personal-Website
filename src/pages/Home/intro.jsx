@@ -17,9 +17,9 @@ function Intro() {
           <article>
             <div>
               <h2 style={{ display: "inline-block" }}>
-                <span style = {{color : "#D61313", fontSize : "1.2em"}}>Hi
+                <span style={{ color: "#D61313", fontSize: "1.2em" }}>Hi
                 </span>, I am Shibashis Das.
-                </h2>
+              </h2>
               <div className={styles.icons_block}>
                 {svg.map(function (item) {
                   return (
