@@ -1,0 +1,20 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../components/assests/GT-Walsheim-Pro-Light.ttf);
+}
+
+.container{
+  font-family: myFirstFont;
+  font-size: 17px;
+  margin: auto;
+  font-weight: 500;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.pic{
+  position: relative;
+  top: 2px;
+  width : 18px;
+  height: auto;
+}

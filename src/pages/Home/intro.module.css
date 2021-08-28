@@ -21,7 +21,7 @@
     letter-spacing: 1px;
     order: 1;
     display: inline-block;
-    margin: 1em;
+    padding: 1em;
     line-height: 1.4;
     color: #2b2b2b;
 }
@@ -63,4 +63,17 @@
 .icons_block img:hover{
   transform: translate(0, -5px);
 
+}
+
+@media only screen and (max-width: 800px) {
+  .main_block{
+    font-size: 15px;
+  }
+  .icons_block img{
+    width: 20px;
+  }
+  .hi{
+    width: 100vw;
+    display: block;
+  }
 }

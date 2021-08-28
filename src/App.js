@@ -3,6 +3,7 @@ import Intro from "./pages/Home/intro";
 import ProjectView from './pages/project/projects';
 import ContactView from './pages/contact/contact';
 import TechView from './pages/Tech/tech';
+import Footer from './pages/footer/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <ProjectView/>
         {/* <ContactView/> */}
         <TechView/>
+        <Footer/>
     </div>
   );
 }

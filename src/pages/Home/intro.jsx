@@ -17,8 +17,8 @@ function Intro() {
           <article>
             <div>
               <h2 style={{ display: "inline-block" }}>
-                <span style={{ color: "#D61313", fontSize: "1.2em" }}>Hi
-                </span>, I am Shibashis Das.
+                <span className={styles.hi} style={{ color: "#D61313", fontSize: "1.2em" }}>Hi,
+                </span> I am Shibashis Das.
               </h2>
               <div className={styles.icons_block}>
                 {svg.map(function (item) {
@@ -28,11 +28,13 @@ function Intro() {
                 })}
               </div>
             </div>
+            <p>
             I am a tech enthusiast. I like to build and explore new things.<br />
-            I love programming, swimming, badminton and reading books.<br />
+            My hobbies include programming, swimming and reading books.<br />
             I am currently an undergraduate student at IIT Kharagpur doing my <br />
-            B.Tech in Engineering and a minor in Mathematics and Computing.<br />
+            Bachelors in Engineering and a minor in Mathematics and Computing.<br />
             I have experience in FullStack Development and writing web apps.<br />
+            </p>
           </article>
         </section>
         <div className={styles.image_block}>

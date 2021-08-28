@@ -21,6 +21,11 @@ export const svg = [
     },
 ];
 
+export const love = {
+  icon : 'love',
+  src : require('./love.svg')
+}
+
 export const setting_svg = {
   icon : 'settings',
   src : require('./settings.svg')
