@@ -1,5 +1,3 @@
-
-
 .card {
     display: flex;
     position: relative;
@@ -116,4 +114,27 @@
   box-decoration-break: clone;
   background-clip: text;
   border-color: white;
+}
+
+.modalContent{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: none;
+  background: none;
+  overflow: hidden;
+  outline: 'none';
+  padding: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 10;
 }

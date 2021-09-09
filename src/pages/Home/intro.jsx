@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { svg } from '../../components/assests/svg/import_svg';
 import styles from './intro.module.css';
 import code1 from "../../components/assests/images/code-quote.png"
+import Cd from '../../components/cd/cd';
 
 function Intro() {
   useEffect(() => {
@@ -13,7 +14,7 @@ function Intro() {
   return (
     <>
       <div className={styles.main_block}>
-        <section className={styles.sub_block}>
+        <div className={styles.sub_block}>
           <article>
             <div>
               <h2 style={{ display: "inline-block" }}>
@@ -36,10 +37,11 @@ function Intro() {
             I have experience in FullStack Development and writing web apps.<br />
             </p>
           </article>
-        </section>
-        <div className={styles.image_block}>
-          <img className={styles.image_quote} src={code1} alt="funky quote" />
         </div>
+        {/* <div className={styles.image_block}>
+          <img className={styles.image_quote} src={code1} alt="funky quote" />
+        </div> */}
+        <Cd/>
       </div>
     </>
   )

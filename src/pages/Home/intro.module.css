@@ -19,6 +19,8 @@
 .sub_block{
     text-align: justify;
     letter-spacing: 1px;
+    position: relative;
+    right: 2%;
     order: 1;
     display: inline-block;
     padding: 1em;

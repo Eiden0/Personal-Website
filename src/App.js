@@ -18,6 +18,7 @@ function App() {
         {/* <ContactView/> */}
         <TechView/>
         <Footer/>
+        {/* <Modal data = {projectList}/> */}
     </div>
   );
 }

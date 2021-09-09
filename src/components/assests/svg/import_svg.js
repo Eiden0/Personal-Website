@@ -30,3 +30,8 @@ export const setting_svg = {
   icon : 'settings',
   src : require('./settings.svg')
 }
+
+export const cross = {
+  icon : 'cross',
+  src : require('./red_x.svg')
+}

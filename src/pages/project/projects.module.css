@@ -8,8 +8,8 @@
 .main_block{
   font-family: myFirstFont;
   margin: 1em;
+  margin-bottom: 5em;
   text-align: left;
-  height: 100vh;
 }
 
 .heading{
