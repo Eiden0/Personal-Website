@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.17dd1ff3.chunk.css",
-    "main.js": "/static/js/main.dfbe300c.chunk.js",
-    "main.js.map": "/static/js/main.dfbe300c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cbf353a3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cbf353a3.js.map",
-    "static/js/2.268ade79.chunk.js": "/static/js/2.268ade79.chunk.js",
-    "static/js/2.268ade79.chunk.js.map": "/static/js/2.268ade79.chunk.js.map",
-    "static/js/3.304792d2.chunk.js": "/static/js/3.304792d2.chunk.js",
-    "static/js/3.304792d2.chunk.js.map": "/static/js/3.304792d2.chunk.js.map",
+    "main.css": "/static/css/main.be712df1.chunk.css",
+    "main.js": "/static/js/main.56916ab4.chunk.js",
+    "main.js.map": "/static/js/main.56916ab4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a4fb070b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a4fb070b.js.map",
+    "static/js/2.265850bd.chunk.js": "/static/js/2.265850bd.chunk.js",
+    "static/js/2.265850bd.chunk.js.map": "/static/js/2.265850bd.chunk.js.map",
+    "static/js/3.c9523b00.chunk.js": "/static/js/3.c9523b00.chunk.js",
+    "static/js/3.c9523b00.chunk.js.map": "/static/js/3.c9523b00.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.17dd1ff3.chunk.css.map": "/static/css/main.17dd1ff3.chunk.css.map",
-    "static/js/2.268ade79.chunk.js.LICENSE.txt": "/static/js/2.268ade79.chunk.js.LICENSE.txt",
+    "static/css/main.be712df1.chunk.css.map": "/static/css/main.be712df1.chunk.css.map",
+    "static/js/2.265850bd.chunk.js.LICENSE.txt": "/static/js/2.265850bd.chunk.js.LICENSE.txt",
     "static/media/footer.module.css": "/static/media/GT-Walsheim-Pro-Light.5b56f570.ttf",
     "static/media/Redux.png": "/static/media/Redux.543b98d3.png",
-    "static/media/cd.module.css": "/static/media/album.20d8544a.jfif",
-    "static/media/code-quote.ad9b9049.png": "/static/media/code-quote.ad9b9049.png",
     "static/media/cpp.svg": "/static/media/cpp.2441702d.svg",
     "static/media/django.svg": "/static/media/django.db7b5655.svg",
     "static/media/facebook.svg": "/static/media/facebook.2ca05ac4.svg",
@@ -39,9 +37,9 @@
     "static/media/webrtc.svg": "/static/media/webrtc.ea0713cd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbf353a3.js",
-    "static/js/2.268ade79.chunk.js",
-    "static/css/main.17dd1ff3.chunk.css",
-    "static/js/main.dfbe300c.chunk.js"
+    "static/js/runtime-main.a4fb070b.js",
+    "static/js/2.265850bd.chunk.js",
+    "static/css/main.be712df1.chunk.css",
+    "static/js/main.56916ab4.chunk.js"
   ]
 }
