@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../components/assests/GT-Walsheim-Pro-Light.ttf);
+}
+
+.main_block{
+  font-family: myFirstFont;
+  margin: 1em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.heading{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 2em 1em;
+  text-align: center;
+}
+
+.contentHolder{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1em;
+  text-align: left;
+}
+
+.subHeading{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.subHeading img{
+  width: 40px;
+  vertical-align: middle;
+  margin : 0 0.5em;
+}
+.jobHeading{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.jobHeading p{
+  margin: 0;
+}
+
+.work{
+  width: 40vw;
+}
+
+.content{
+  font-size: 17px;
+  font-weight: 500;
+  margin: 8px 0 32px 0;
+  letter-spacing: 0.5px;
+}

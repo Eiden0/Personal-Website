@@ -11,7 +11,11 @@ class InnerModal extends React.Component{
     return(
       <article className = {styles.modal}>
         <div className = {styles.content}>
-          <div className ={styles.cross}><button type="button" onClick = {this.handleClose} ><img src = {cross.src.default} alt = {cross.icon}/></button></div>
+          <div className ={styles.cross}>
+            <button type="button" onClick = {this.handleClose} >
+              <img src = {cross.src.default} alt = {cross.icon}/>
+            </button>
+          </div>
           <header className ={styles.header}>
             <p>{data.type}</p>
             <h2>{data.name}</h2>

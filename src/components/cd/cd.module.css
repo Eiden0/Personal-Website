@@ -1,7 +1,6 @@
 .spinningDisk{
   order: 2;
   border-radius: 50%;
-  background : url("../assests/web_images/album.jfif");
   background-size: contain;
   background-position:  center top;
   display: inline-block;
