@@ -13,9 +13,7 @@ function ProjectView() {
           <section className={styles[`card-list`]}>
             {projectList.map((item, index) => {
               return (
-                <>
                   <Card key={index} data={item} />
-                </>
               )
             })}
           </section>
