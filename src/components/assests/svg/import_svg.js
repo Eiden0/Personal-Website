@@ -1,12 +1,12 @@
 export const svg = [
     {
         icon : "linkedIn",
-        link : "https://www.facebook.com/Eiden0",
+        link : "https://www.linkedin.com/in/eiden0/",
         src : require('./linkedin.svg'),
     },
     {
         icon : 'facebook',
-        link : "https://www.linkedin.com/in/eiden0/",
+        link : "https://www.facebook.com/Eiden0",
         src : require('./facebook.svg'),
     },
     {
