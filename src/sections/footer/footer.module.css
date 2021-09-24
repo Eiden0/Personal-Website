@@ -23,6 +23,14 @@
   box-sizing: border-box;
 }
 
+.right_col {
+  margin: 2em;
+}
+
+.left_col {
+  margin: 2em;
+}
+
 .left_col h2 {
   margin: 0px 0px 10px;
   font-weight: 600;
@@ -40,10 +48,10 @@
 }
 
 .icons_holder {
-  width: 200px;
   display: flex;
   flex-direction: row;
   column-gap: 40px;
+  justify-content: space-between;
 }
 
 .svg img {
@@ -70,7 +78,7 @@
   padding: 13px 32px;
 }
 
-.ending_footer{
+.ending_footer {
   text-align: center;
   font-family: monoFont;
   font-size: 13px;
@@ -78,7 +86,34 @@
   color: rgba(55, 65, 81, 1);
 }
 
-.ending_footer a{
+.ending_footer a {
   text-decoration: none;
   color: rgba(55, 65, 81, 1);
+}
+
+@media only screen and (max-width: 808px) {
+  .left_col h2 {
+    font-size: 2em;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .left_col p {
+    font-size: 12px;
+    color: rgba(55, 65, 81, 1);
+    margin-bottom: 1.5em;
+  }
+
+  .svg img {
+    width: 15px;
+    height: 15px;
+  }
+  .contact_button {
+    font-size: 12px;
+  }
+  .ending_footer {
+    font-size: 10px;
+  }
 }

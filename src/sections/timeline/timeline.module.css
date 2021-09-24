@@ -30,10 +30,9 @@
   margin-bottom: 1.2rem;
 }
 
-.heading h2{
+.heading h2 {
   margin-left: -5px;
 }
-
 
 .bullets {
   margin-left: 0.5rem;
@@ -60,20 +59,20 @@ ul {
   letter-spacing: -0.05em;
 }
 
-.bulletHeader{
+.bulletHeader {
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
   color: rgb(9, 88, 148);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   line-height: 1.5;
   font-weight: 500;
 }
 
-.bulletHeader svg{
+.bulletHeader svg {
   width: 1rem;
   height: 1rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   vertical-align: middle;
 }
 
@@ -85,17 +84,17 @@ ul {
   font-size: 1.05em;
 }
 
-.subPara{
-  color: rgba(55,65,81,1);
+.subPara {
+  color: rgba(55, 65, 81, 1);
   margin: 0;
   margin-left: 1.5rem;
   max-width: 40rem;
 }
 
-.border{
+.border {
   box-sizing: border-box;
   border: 0 solid;
-  border-color: rgba(229,231,235,1);
+  border-color: rgba(229, 231, 235, 1);
   border-width: 1px;
   width: 100%;
   margin-top: 2rem;
@@ -103,16 +102,16 @@ ul {
   line-height: inherit;
 }
 
-li{
-  margin-left: .5rem;
+li {
+  margin-left: 0.5rem;
   margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
-  .heading{
+  .heading {
     font-size: 5vw;
   }
-  .subBlock{
+  .subBlock {
     font-size: 12px;
   }
 }

@@ -35,7 +35,7 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                     className={styles.svg}
-                    key = {element.icon}
+                    key={element.icon}
                   >
                     <img alt={element.icon} src={element.src.default}></img>
                   </motion.a>
@@ -45,12 +45,27 @@ function Footer() {
           </div>
         </footer>
       </section>
-      <div className={styles.ending_footer}>
-        <a href="https://github.com/eiden0/eiden0.github.io" target="_blank" rel="noreferrer"> Made by eiden. </a> <br />
+      <footer className={styles.ending_footer}>
+        <a
+          href="https://github.com/eiden0/eiden0.github.io"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Made by eiden with 💙
+        </a>{" "}
+        <br />
         Inspired by
-        <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer"> Brittany Chiang </a> and{" "}
-        <a href="https://leerob.io/" target="_blank" rel="noreferrer"> Lee Robinson. </a>
-      </div>
+        <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer">
+          {" "}
+          Brittany Chiang{" "}
+        </a>{" "}
+        and{" "}
+        <a href="https://leerob.io/" target="_blank" rel="noreferrer">
+          {" "}
+          Lee Robinson{" "}
+        </a>
+      </footer>
     </>
   );
 }

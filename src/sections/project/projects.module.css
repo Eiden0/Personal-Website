@@ -22,15 +22,15 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 15px;
   position: relative;
-  justify-content: center;  
-  align-content: center; 
+  justify-content: center;
+  align-content: center;
 }
 
-.container{
+.container {
   padding: 100px 120px 0 120px;
 }
 
-.heading{
+.heading {
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -40,23 +40,27 @@
   margin-bottom: 1.2rem;
 }
 
-.heading h2{
+.heading h2 {
   display: inline-block;
   margin-top: 10px;
 }
 
-.heading img{
+.heading img {
   vertical-align: top;
   position: relative;
   top: 6px;
   left: 5px;
 }
 
+.heading_icon{
+  display: inline-block !important;
+}
+
 @media only screen and (max-width: 768px) {
-  .container{
+  .container {
     padding: 50px 10px;
   }
-  .heading{
+  .heading {
     font-size: 1.1em;
   }
 }

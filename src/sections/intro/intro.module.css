@@ -45,8 +45,7 @@ h6 {
   padding: 0px;
 }
 
-.sub_block{
-  margin-bottom: 5em;
+.sub_block {
   margin-left: 5em;
 }
 
@@ -80,7 +79,7 @@ h3.bigHeading {
   font-weight: 400;
   line-height: 1.5;
   font-size: 1em;
-  color: rgba(75,85,99,1);
+  color: rgba(75, 85, 99, 1);
   letter-spacing: 0.5px;
   text-align: justify;
 }
@@ -91,7 +90,7 @@ h3.bigHeading {
 }
 
 @media only screen and (max-width: 768px) {
-  .sub_block{
+  .sub_block {
     margin-bottom: 2em;
     margin-left: 2em;
     font-size: 10px;
