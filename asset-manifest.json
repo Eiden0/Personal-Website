@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.48cbd60f.chunk.css",
-    "main.js": "/static/js/main.a1fcdbc9.chunk.js",
-    "main.js.map": "/static/js/main.a1fcdbc9.chunk.js.map",
+    "main.css": "/static/css/main.1d357cc6.chunk.css",
+    "main.js": "/static/js/main.fc77a320.chunk.js",
+    "main.js.map": "/static/js/main.fc77a320.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b93ae8c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.b93ae8c3.js.map",
-    "static/js/2.fbf48b8e.chunk.js": "/static/js/2.fbf48b8e.chunk.js",
-    "static/js/2.fbf48b8e.chunk.js.map": "/static/js/2.fbf48b8e.chunk.js.map",
+    "static/js/2.40fd827a.chunk.js": "/static/js/2.40fd827a.chunk.js",
+    "static/js/2.40fd827a.chunk.js.map": "/static/js/2.40fd827a.chunk.js.map",
     "static/js/3.9fe4f641.chunk.js": "/static/js/3.9fe4f641.chunk.js",
     "static/js/3.9fe4f641.chunk.js.map": "/static/js/3.9fe4f641.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.48cbd60f.chunk.css.map": "/static/css/main.48cbd60f.chunk.css.map",
-    "static/js/2.fbf48b8e.chunk.js.LICENSE.txt": "/static/js/2.fbf48b8e.chunk.js.LICENSE.txt",
+    "static/css/main.1d357cc6.chunk.css.map": "/static/css/main.1d357cc6.chunk.css.map",
+    "static/js/2.40fd827a.chunk.js.LICENSE.txt": "/static/js/2.40fd827a.chunk.js.LICENSE.txt",
     "static/media/intro.module.css": "/static/media/SFMono-Semibold.233f868a.ttf",
     "static/media/timeline.module.css": "/static/media/Calibre-Medium.c75a2cfb.ttf",
     "static/media/modal.module.css": "/static/media/GT-Walsheim-Pro-Light.5b56f570.ttf",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b93ae8c3.js",
-    "static/js/2.fbf48b8e.chunk.js",
-    "static/css/main.48cbd60f.chunk.css",
-    "static/js/main.a1fcdbc9.chunk.js"
+    "static/js/2.40fd827a.chunk.js",
+    "static/css/main.1d357cc6.chunk.css",
+    "static/js/main.fc77a320.chunk.js"
   ]
 }
