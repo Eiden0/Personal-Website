@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './modal.module.css';
-import {cross} from "../assests/svg/import_svg";
+import {cross} from "../../assests/svg/import_svg";
+import {motion} from "framer-motion";
 
 class InnerModal extends React.Component{
   handleClose = () => {
@@ -9,21 +10,28 @@ class InnerModal extends React.Component{
   render(){
     let {data} = this.props
     return(
-      <article className = {styles.modal}>
-        <div className = {styles.content}>
-          <div className ={styles.cross}>
+      <>
+      <motion.div 
+        className = {styles.overlay}
+      />
+      <motion.article 
+        className = {`${styles.modal} ${styles.modalContent}`}
+        layoutId={`article-${data.name}`}
+      >
+        <motion.div className = {styles.content} animate>
+          <motion.div className ={styles.cross}>
             <button type="button" onClick = {this.handleClose} >
               <img src = {cross.src.default} alt = {cross.icon}/>
             </button>
-          </div>
-          <header className ={styles.header}>
+          </motion.div>
+          {/* <motion.header className ={styles.header} layoutId={`header-${data.name}`}>
             <p>{data.type}</p>
             <h2>{data.name}</h2>
             <p>{data.description}</p>
-          </header>
-          <div className = {styles.contentBox}>
-            <div className = {styles.desc}>
-              <div className = {styles.para}>
+          </motion.header> */}
+          <motion.div className = {styles.contentBox} animate>
+            <motion.div className = {styles.desc}>
+              <motion.div className = {styles.para}>
                 {data.p}
                 {data.link &&
                   <p>Link :   
@@ -32,8 +40,8 @@ class InnerModal extends React.Component{
                     </a>
                   </p>
                 }
-              </div>
-              <div className = {styles.list}>
+              </motion.div>
+              <motion.div className = {styles.list}>
                 Technology Used :
                 <ul>
                   {data.tech.map((element, index) =>{
@@ -42,16 +50,17 @@ class InnerModal extends React.Component{
                     )
                   })}
                 </ul>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
             { data.src && 
-            <div className = {styles.imageHolder}>
+            <motion.div className = {styles.imageHolder}>
               <img src = {data.src.default} alt = {data.name}></img>
-            </div>
+            </motion.div>
             }
-          </div>
-        </div>
-      </article>
+          </motion.div>
+        </motion.div>
+      </motion.article>
+      </>
     )
   }
 }

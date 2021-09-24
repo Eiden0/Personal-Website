@@ -1,0 +1,118 @@
+@font-face {
+  font-family: calibreFontMedium;
+  src: url(../../assests/fonts/Calibre/Calibre-Medium.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: calibreFontLight;
+  src: url(../../assests/fonts/Calibre/Calibre-Light.ttf);
+  font-display: swap;
+}
+
+.mainBlock {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  padding-top: 15vh;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: rgb(9, 50, 82);
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 1.2rem;
+}
+
+.heading h2{
+  margin-left: -5px;
+}
+
+
+.bullets {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2.5em;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.05em;
+}
+
+.bulletHeader{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: rgb(9, 88, 148);
+  margin-bottom: .5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.bulletHeader svg{
+  width: 1rem;
+  height: 1rem;
+  margin-right: .5rem;
+  vertical-align: middle;
+}
+
+.mainPara {
+  font-weight: 500;
+  color: rgba(17, 24, 39, 1);
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.05em;
+}
+
+.subPara{
+  color: rgba(55,65,81,1);
+  margin: 0;
+  margin-left: 1.5rem;
+  max-width: 40rem;
+}
+
+.border{
+  box-sizing: border-box;
+  border: 0 solid;
+  border-color: rgba(229,231,235,1);
+  border-width: 1px;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: inherit;
+}
+
+li{
+  margin-left: .5rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading{
+    font-size: 5vw;
+  }
+  .subBlock{
+    font-size: 12px;
+  }
+}

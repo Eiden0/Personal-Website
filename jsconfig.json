@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
+    "paths": {
+      "@components": ["components/index"],
+      "@sections": ["sections/index"],
+      "@data": ["context/"]
+    }
+  }
+}

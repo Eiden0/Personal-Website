@@ -1,0 +1,113 @@
+@font-face {
+  font-family: monoFontMedium;
+  src: url(../../assests/fonts/SFMono/SFMono-Medium.ttf);
+  font-display: swap;
+}
+
+.card {
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding: 2rem 1.75rem;
+  border-radius: 4px;
+  height: clamp(80px, 15em, 300px);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: clamp(80px, 16em, 300px);
+  background-color: rgba(239, 246, 255);
+  background-image: linear-gradient(30deg, rgba(239, 246, 255) 40%, #ffffff);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.project_top {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.project_top svg {
+  width: 35px;
+  height: 35px;
+}
+
+.project_links {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: -10px;
+  color: rgb(9, 50, 82);
+}
+
+.folder {
+  color: rgb(9, 50, 82);
+}
+
+.project_links a {
+  text-decoration: none;
+  color: #a8b2d1;
+  margin: 5px;
+}
+.project_links a:hover {
+  color: rgb(9, 50, 82);
+  transition: all 0.2s ease-out;
+}
+
+.project_links svg {
+  width: 25px;
+  height: 25px;
+}
+
+.project_title {
+  margin: 0px 0px 10px;
+  font-size: 1.1em;
+}
+
+.project_desc {
+  font-size: 14px;
+}
+
+.project_tags {
+  display: flex;
+  align-items: flex-end;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.project_tags li {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.75;
+  margin-left: 0;
+  font-family: monoFontMedium;
+}
+
+.project_tags li:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.card_holder {
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s,
+    opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s,
+    transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+.card_holder:hover{
+  transform: translateY(-8px);
+}

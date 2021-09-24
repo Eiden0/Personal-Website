@@ -1,23 +1,18 @@
-import './App.css';
-import Intro from "./pages/Home/intro";
-import ProjectView from './pages/project/projects';
-import TechView from './pages/Tech/tech';
-import Footer from './pages/footer/footer';
-import ExperienceView from './pages/experience/experience';
+import "./App.css";
+import {Intro, Timeline, Project, Footer} from "@sections";
+import { Nav } from "@components";
 
 function App() {
   return (
     <div className="App">
-        <div className= "brand">
-          eiden
-        </div>
-        <div className = "background"></div>
-        <Intro/>
-        <div className = "separator"/>
-        <ExperienceView/>
-        <ProjectView/>
-        <TechView/>
-        <Footer/>
+      <Nav/>
+      <main className="main-holder">
+        <Intro />
+        <Timeline/>
+        <Project/>
+        {/* <Stack/> */}
+        <Footer />
+      </main>
     </div>
   );
 }

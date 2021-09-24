@@ -1,0 +1,84 @@
+@font-face {
+  font-family: monoFont;
+  src: url(../../assests/fonts/SFMono/SFMono-Semibold.ttf);
+  font-display: swap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 4em;
+}
+
+.footer_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.left_col h2 {
+  margin: 0px 0px 10px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.1;
+  font-size: 3em;
+  letter-spacing: -0.05em;
+}
+
+.left_col p {
+  font-size: 1.1em;
+  width: 20em;
+  color: rgba(55, 65, 81, 1);
+  margin-bottom: 1.5em;
+}
+
+.icons_holder {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.svg img {
+  width: 30px;
+  height: 30px;
+}
+
+.svg {
+  width: min-content;
+}
+
+.contact_button {
+  background-color: rgb(247, 250, 255);
+  border: 2px solid rgb(9, 88, 148);
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  padding: 13px 32px;
+}
+
+.ending_footer{
+  text-align: center;
+  font-family: monoFont;
+  font-size: 13px;
+  padding: 2em 5em;
+  color: rgba(55, 65, 81, 1);
+}
+
+.ending_footer a{
+  text-decoration: none;
+  color: rgba(55, 65, 81, 1);
+}

@@ -1,26 +1,33 @@
-.App{
+.App {
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.separator{
-  height : 5%;
-  margin: 4em 2em 1em 2em;
-  width: 100%;
-}
-
-.brand{
-  color: #D61313;
+.brand {
+  color: rgb(9, 88, 148);
   font-size: 1.1em;
   padding-top: 2em;
   text-align: center;
 }
 
-.background{
-  background-color: #b4c5cf;
-  position: absolute;
-  z-index: -10;
-  height: 80vh;
-  width: 35vw;
-  top: 10%;
-  right: 0;
+.main-holder {
+  padding: 0 150px;
+}
+
+main {
+  margin: 0px auto;
+  max-width: 1600px;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-holder {
+    padding: 0 25px;
+  }
+}
+
+section {
+  margin: 0px auto;
+  padding: 100px 0px;
+  max-width: 1000px;
 }

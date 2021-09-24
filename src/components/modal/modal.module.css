@@ -1,13 +1,27 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(../../components/assests/GT-Walsheim-Pro-Light.ttf);
+  src: url(../../assests/fonts/GT-Walsheim-Pro-Light.ttf);
+}
+
+.modalContent{
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  padding: 40px 0;
 }
 
 .overlay {
+  z-index: 1;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  will-change: opacity;
+  top: 0;
+  bottom: 0;
+  left: 0;
   width: 100vw;
-	height: 100vh;
-	top: 0;
-	left: 0;
 }
 
 .modal{
@@ -21,13 +35,6 @@
   text-align: initial;
 }
 
-.overlay{
-  position: absolute;
-	z-index: 10;
-	background: rgba(55, 58, 71, 0.9);
-	opacity: 0;
-	transition: opacity 0.3s;
-}
 
 .content{
   width: min-content;
@@ -117,7 +124,6 @@
 }
 
 .cross{
-  display: inline-block;
   float: right;
   padding-top: 1.6em;
   padding-right: 2em;
