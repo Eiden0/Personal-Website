@@ -19,7 +19,7 @@ function Footer() {
               <motion.a
                 whileTap={{ scale: 0.95 }}
                 className={styles.contact_button}
-                href="mailto:shibashis12@example.com"
+                href="mailto:shibashis12@gmail.com"
               >
                 Say Hi
               </motion.a>

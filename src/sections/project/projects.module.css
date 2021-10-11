@@ -22,8 +22,6 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 15px;
   position: relative;
-  justify-content: center;
-  align-content: center;
 }
 
 .container {
@@ -62,5 +60,11 @@
   }
   .heading {
     font-size: 1.1em;
+  }
+}
+
+@media (max-width: 1080px){
+  .project_grid{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }

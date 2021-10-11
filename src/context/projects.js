@@ -18,6 +18,7 @@ export const projectList = [
     p : 'A website made for the students of the RP Hall for easier workflow and providing timely notification. It has a complaint and a feedback portal where students can enter their responses. It also allows the adminstration to get access to student\'s data from one place which enable them to work more efficiently',
     tags : ['HTML', 'Django', 'Apache'],
     tech : ['HTML', 'CSS', 'Javascript', 'Django', 'Apache'],
+    link : 'http://www.rphall.iitkgp.ac.in/',
     src : require('../assests/web_images/rp_hall.PNG')
   },
   {
@@ -35,8 +36,8 @@ export const projectList = [
     type : 'Project',
     name : 'Online Mess Portal',
     description : 'Online Mess Portal For students',
-    card_desc : "An online mess portal where students can register online and then select the menu from our cafeterias beforehand. This was developed to minimize the food wastage.",
-    p : 'An online mess portal where students can register online and then order food from our cafeterias. This was developed to minimize the food wastage and encourage students to not waste food. It also aims to bring a drastic change to current billing method of food for students in IIT Kharagpur',
+    card_desc : "An online mess portal where students can register online and then select the menu from our cafeterias beforehand. This is an ongoing project.",
+    p : 'An online mess portal where students can register online and then order food from our cafeterias. This project aims to minimize the food wastage and encourage students to not waste food. It also aims to bring a drastic change to current billing method of food for students in IIT Kharagpur',
     tech : ['HTML', 'CSS', 'Javascript', 'Django', 'Apache'],
     tags : ['HTML', 'Apache', 'Django']
   },

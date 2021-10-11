@@ -1,10 +1,9 @@
 import React from "react";
-import SquareCard from "../../components/square_cards/cards";
-// import { Card } from "@components";
 import { BrowserView } from "react-device-detect";
 import styles from "./projects.module.css";
 import { projectList } from "@context/projects";
 import { setting_svg } from "../../assests/svg/import_svg";
+import { SquareCard } from "@components";
 import { AnimateSharedLayout } from "framer-motion";
 
 function ProjectView() {
