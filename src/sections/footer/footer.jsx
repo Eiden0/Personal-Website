@@ -12,7 +12,7 @@ function Footer() {
             <h2>Get in Touch</h2>
             <p>
               I am always up for a healthy discussion.
-              <br /> If you have a question or just want to say hi, you can
+              <br /> If you have a question or just want to say hi, you ca
               always drop me a message.
             </p>
             <div>
