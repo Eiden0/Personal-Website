@@ -6,7 +6,7 @@
 
 .card {
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
-  display: flex;
+  display: inline-flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
@@ -24,6 +24,7 @@
     BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
     sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
     Noto Color Emoji;
+  margin: auto;
 }
 
 .project_top {
@@ -106,6 +107,7 @@
     transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   visibility: visible;
   opacity: 1;
+  text-align: center;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
 

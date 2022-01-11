@@ -5,7 +5,9 @@
 }
 
 .navHeader {
-  position: sticky;
+  position: fixed;
+  /* top: 0;
+  left: 0; */
   display: flex;
   padding: 3rem 2em;
   z-index: 10;
